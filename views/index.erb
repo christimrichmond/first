@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <title>The Springs | Taphouse & Eatery</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+</head>
+<header> <img src="http://christirichmond.com/wp-content/uploads/2018/01/banner.jpg" style="max-width:100%;height:auto;"> </header>
+<body style="background-color:#212121">
+  <p id="getdate"></p>
+
+<script>
+document.getElementById("getdate").innerHTML = Date();
+</script>
+
+
+<h3>Please make your selection:</h3>
+
+<!-- <ul class="list-unstyled"> -->
+<form method='post' action='order'>
+  <input type="radio" name="sandwich" value="Burger"> Burger<br>
+  <input type="radio" name="sandwich" value="Sandwich"> Sandwich<br>
+  <input type="radio" name="sandwich" value="Wrap"> Wrap<br>
+  <input type="radio" name="sides" value="Salad"> Salad<br>
+  <input type="radio" name="sides" value="Fries"> Fries<br>
+  <input type="radio" name="sides" value="Onion_Rings"> Onion Rings<br>
+  <input type="radio" name="sides" value="Chips"> Chips <br>
+  <input type="radio" name="sides" value="Slaw"> Slaw
+<br>
+<br>
+  <button type='submit' class='btn btn-primary'>Select</button>
+<!-- </ul> -->
+</form>
+
+<!-- <h3>Would you like any sides?</h3> -->
+
+<!-- #<ul class="list-unstyled"> -->
+
+<!-- <form action='sides' method='post'>
+  <input type="radio" name="fries" value="fries"> Fries<br>
+  <input type="radio" name="onion_rings" value="onion_rings"> Onion Rings<br>
+  <input type="radio" name="chips" value="chips"> Chips <br>
+  <input type="radio" name="slaw" value="slaw"> Slaw
+<br>
+<br>
+  <button type='submit' class='btn btn-primary'>Select</button>
+</ul>
+</form>
+ -->
+
+</body>
+</html>
